@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+}
+.searchBar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    width: 600px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.ss2{
+    border-radius: 33px;
+    overflow: hidden;
+    height: 35px;
+    width: 400px;
+    
+}
+.ss1{
+    border-radius: 33px;
+    overflow: hidden;
+}
+.ss3{
+    border-radius: 33px;
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+}
+
+.containerOne{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh; 
+      
+    
+}
+.googleMainContainer{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+    width: 500px;
+}
+.twoSearchBars{
+    padding: 30px;
+    
+    
+}
+.styleBars{
+    border-radius: 33px;
+}
+a{
+    text-decoration: none;
+    margin-left: 5px;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.nav-links{
+    width: 100px;
+}
+.advancedSearchBar{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    width: 800px;
+    gap: 15px;
+    height: 300px;
+    
+}
+.advancedSearchBarStyle{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 5px;
+    margin: 10px;
+    width: 550px;
+}
+.advancedSearchBarText{
+    display: flex;
+    flex-direction: column;
+    line-height: 8px;
+}
+.advancedSearchSubmitStyle{
+    margin-left: 450px;
+    display: flex;
+    
+    color: white;
+    background-color: #4D90FE;
+    height: 30px;
+    border-radius: 5px;
+    font-family: arial,sans-serif;
+    width: 125px;
+
+}
+h2{
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 50px;
+}
+h1{
+    font-size: 22px;
+    padding-left: 50px;
+    font-weight: normal;
+    
+    padding-bottom: 20px;
+}
+   
+
+
+
+

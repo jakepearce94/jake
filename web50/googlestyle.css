@@ -6,7 +6,7 @@ body{
     flex-direction: column;
     gap: 10px;
     
-    width: 600px;
+    width: 100%;
     height: 200px;
     align-items: center;
     justify-content: center;
@@ -15,19 +15,35 @@ body{
 .ss2{
     border-radius: 33px;
     overflow: hidden;
-    height: 35px;
-    width: 400px;
+    height: 44px;
+    width: 559px;
+    
+    
     
 }
 .ss1{
-    border-radius: 33px;
-    overflow: hidden;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    
+    
 }
 .ss3{
     border-radius: 33px;
     overflow: hidden;
-    width: 100%;
-    height: 30px;
+    width: 584px;
+    height: 46px;
 }
 
 .containerOne{
@@ -45,12 +61,14 @@ body{
     align-items: center;
     height: 300px;
     flex-direction: column;
-    width: 500px;
+    width: 100%;
+    margin: 20px;
 }
 .twoSearchBars{
+    width: 50%;
     padding: 30px;
-    
-    
+    display: flex;
+    justify-content: center;
 }
 .styleBars{
     border-radius: 33px;
